@@ -67,6 +67,7 @@ public class EstacionamentoView {
     public static void liberarVaga(){
         boolean status;
         int numVaga = Integer.parseInt(JOptionPane.showInputDialog("Entre com o número da vaga do cliente: "));
+
         
         status = objDados.retirarVeiculo(numVaga);
         
